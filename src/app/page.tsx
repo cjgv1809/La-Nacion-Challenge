@@ -1,22 +1,32 @@
 import { getArticlesData, getTagsData } from "./lib";
 import TagsList from "./components/TagsList";
 import ArticlesList from "./components/ArticlesList";
-import ArticlesListHeader from "./components/ArticlesListHeader";
+import HeaderTitle from "./components/HeaderTitle";
 import Sidebar from "./components/Sidebar";
+import Button from "./components/Button";
 
 export default async function Home() {
-  const tags = await getTagsData();
-  const articles = await getArticlesData();
+  // execute both promises in parallel
+  const [tagsResult, articlesResult] = await Promise.allSettled([
+    getTagsData(),
+    getArticlesData(true),
+  ]);
 
-  if (!tags || !articles) {
-    return <div>Cargando...</div>;
+  if (
+    tagsResult.status !== "fulfilled" ||
+    articlesResult.status !== "fulfilled"
+  ) {
+    return <div>Error al cargar los datos</div>;
   }
+
+  const tags = tagsResult.value;
+  const articles = articlesResult.value;
 
   return (
     <main className="lay-sidebar">
       <section className="sidebar__main">
         <div className="row">
-          <ArticlesListHeader title="Acumulado Grilla" />
+          <HeaderTitle title="Acumulado Grilla" />
         </div>
 
         <div className="row">
@@ -34,9 +44,7 @@ export default async function Home() {
         </div>
 
         <div className="row">
-          <div className="col-12 hlp-text-center hlp-margintop-40">
-            <button type="button" className="--btn --secondary"></button>
-          </div>
+          <Button text="MÁS NOTAS DE ACUMULADO GRILLA" />
         </div>
       </section>
 

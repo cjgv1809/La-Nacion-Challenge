@@ -1,8 +1,8 @@
-interface ArticlesListHeaderProps {
+interface HeaderTitleProps {
   title: string;
 }
 
-function ArticlesListHeader({ title }: ArticlesListHeaderProps) {
+function HeaderTitle({ title }: HeaderTitleProps) {
   return (
     <div className="com-titleWithfollow hlp-marginBottom-15">
       <h1 className="com-title-section-xl hlp-marginBottom-40">{title}</h1>
@@ -10,4 +10,4 @@ function ArticlesListHeader({ title }: ArticlesListHeaderProps) {
   );
 }
 
-export default ArticlesListHeader;
+export default HeaderTitle;
