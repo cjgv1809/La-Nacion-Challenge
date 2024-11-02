@@ -6756,8 +6756,8 @@ article a.figure:before {
 .middle,
 .inner {
   border: 3px solid transparent;
-  border-top-color: #3cefff;
-  border-right-color: #3cefff;
+  border-top-color: #006998;
+  border-right-color: #006998;
   border-radius: 50%;
   position: absolute;
   top: 50%;
