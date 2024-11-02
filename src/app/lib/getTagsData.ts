@@ -1,11 +1,9 @@
-import type { Article } from "../types";
+import type { Article, Tag } from "../types";
 
-async function getTagsData() {
+async function getTagsData(): Promise<Tag[]> {
   try {
     const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}`, {
-      next: {
-        revalidate: 60, // Revalidate every minute
-      },
+      cache: "no-store",
     });
 
     if (!response.ok) {
