@@ -6,10 +6,10 @@ interface TagListProps {
   count: number;
 }
 
-function TagsList({ tag }: { tag: TagListProps }) {
+function TagsList({ tag: { slug, count, text } }: { tag: TagListProps }) {
   return (
-    <Link href={`/tema/${tag.slug}`}>
-      {tag.text} ({tag.count})
+    <Link href={`/tema/${slug}`}>
+      {text} ({count})
     </Link>
   );
 }

@@ -7,17 +7,19 @@ interface ArticlesListProps {
   article: Article;
 }
 
-function ArticlesList({ article }: ArticlesListProps) {
+function ArticlesList({
+  article: { promo_items, headlines, display_date },
+}: ArticlesListProps) {
   return (
     <article className="mod-caja-nota lugares w-100-mobile">
       <figure className="cont-figure">
         <Link href="#" className="figure">
           <picture className="content-pic picture">
-            {article.promo_items?.basic?.url && (
+            {promo_items?.basic?.url && (
               <Image
                 className="content-img"
-                src={article.promo_items?.basic.url}
-                alt={article.headlines.basic}
+                src={promo_items?.basic.url}
+                alt={headlines.basic}
                 fill
                 sizes={`
                 (max-width: 640px) 100vw,
@@ -34,11 +36,11 @@ function ArticlesList({ article }: ArticlesListProps) {
       </figure>
       <div className="mod-caja-nota__descrip">
         <h2 className="com-title-acu">
-          <a href="#">
-            <strong>{article.headlines.basic}</strong>
-          </a>
+          <Link href="#">
+            <strong>{headlines.basic}</strong>
+          </Link>
         </h2>
-        <p className="com-date">{formatDate(article.display_date)}</p>
+        <p className="com-date">{formatDate(display_date)}</p>
       </div>
     </article>
   );

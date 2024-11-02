@@ -46,4 +46,5 @@ export interface Taxonomy {
 export interface Tag {
   slug: string;
   text: string;
+  count: number;
 }
