@@ -3,13 +3,13 @@ import Link from "next/link";
 import type { Article } from "../types";
 import { formatDate } from "../lib";
 
-interface ArticlesListProps {
+interface ArticleProps {
   article: Article;
 }
 
-function ArticlesList({
+function Article({
   article: { promo_items, headlines, display_date },
-}: ArticlesListProps) {
+}: ArticleProps) {
   return (
     <article className="mod-caja-nota lugares w-100-mobile">
       <figure className="cont-figure">
@@ -22,13 +22,12 @@ function ArticlesList({
                 alt={headlines.basic}
                 fill
                 sizes={`
-                (max-width: 640px) 100vw,
-                (max-width: 768px) 50vw,
-                (max-width: 1024px) 33vw,
-                25vw
-              `}
+                  (max-width: 640px) 100vw,
+                  (max-width: 768px) 50vw,
+                  (max-width: 1024px) 33vw,
+                  25vw
+                `}
                 priority
-                quality={75}
               />
             )}
           </picture>
@@ -46,4 +45,4 @@ function ArticlesList({
   );
 }
 
-export default ArticlesList;
+export default Article;
