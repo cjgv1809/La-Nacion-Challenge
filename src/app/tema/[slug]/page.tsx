@@ -1,8 +1,8 @@
-import ArticlesList from "@/app/components/ArticlesList";
+import Article from "@/app/components/Article";
 import Button from "@/app/components/Button";
 import HeaderTitle from "@/app/components/HeaderTitle";
 import Sidebar from "@/app/components/Sidebar";
-import TagsList from "@/app/components/TagsList";
+import Tag from "@/app/components/Tag";
 import { filteredArticlesByTag, getArticlesData, getTagsData } from "@/app/lib";
 
 interface TagPageProps {
@@ -38,14 +38,14 @@ export default async function TagPage({ params }: TagPageProps) {
         <div className="row">
           <div className="cont_tags com-secondary-tag hlp-marginBottom-20">
             {tags.map((tag) => (
-              <TagsList key={tag.slug} tag={tag} />
+              <Tag key={tag.slug} tag={tag} />
             ))}
           </div>
         </div>
 
         <div className="row-gap-tablet-2 row-gap-deskxl-3 hlp-degrade">
           {filteredArticles.map((article) => (
-            <ArticlesList key={article._id} article={article} />
+            <Article key={article._id} article={article} />
           ))}
         </div>
 

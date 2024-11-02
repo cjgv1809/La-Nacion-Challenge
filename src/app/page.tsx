@@ -1,15 +1,24 @@
-import { getArticlesData, getTagsData } from "./lib";
-import TagsList from "./components/TagsList";
-import ArticlesList from "./components/ArticlesList";
+import Tag from "./components/Tag";
 import HeaderTitle from "./components/HeaderTitle";
 import Sidebar from "./components/Sidebar";
 import Button from "./components/Button";
+import Article from "./components/Article";
+import { getArticlesData, getTagsData } from "./lib";
 
-export default async function Home() {
-  // execute both promises in parallel
+interface SearchParams {
+  search?: string;
+}
+
+export default async function Home({
+  searchParams,
+}: {
+  searchParams: SearchParams;
+}) {
+  const { search: searchTerm = "" } = await searchParams;
+
   const [tagsResult, articlesResult] = await Promise.allSettled([
     getTagsData(),
-    getArticlesData(true),
+    getArticlesData({ filterFlag: true, searchTerm }),
   ]);
 
   if (
@@ -32,19 +41,23 @@ export default async function Home() {
         <div className="row">
           <div className="cont_tags com-secondary-tag hlp-marginBottom-20">
             {tags.map((tag) => (
-              <TagsList key={tag.slug} tag={tag} />
+              <Tag key={tag.slug} tag={tag} />
             ))}
           </div>
         </div>
 
         <div className="row-gap-tablet-2 row-gap-deskxl-3 hlp-degrade">
-          {articles.map((article) => (
-            <ArticlesList key={article._id} article={article} />
-          ))}
+          {articles.length > 0 ? (
+            articles.map((article) => (
+              <Article key={article._id} article={article} />
+            ))
+          ) : (
+            <p>No hay resultados para la búsqueda</p>
+          )}
         </div>
 
         <div className="row">
-          <Button text="MÁS NOTAS DE ACUMULADO GRILLA" />
+            <Button text="MÁS NOTAS DE ACUMULADO GRILLA" />
         </div>
       </section>
 
