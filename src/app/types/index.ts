@@ -48,3 +48,11 @@ export interface Tag {
   text: string;
   count: number;
 }
+export interface LinkItem {
+  href: string;
+  text: string;
+  target?: "_blank" | "_self" | "_parent" | "_top";
+  rel?: string;
+  title?: string;
+  ariaLabel?: string;
+}
