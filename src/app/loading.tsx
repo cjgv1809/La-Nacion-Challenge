@@ -1,11 +1,7 @@
+import Loader from "./components/Loader";
+
 function Loading() {
-  return (
-    <div className="loader">
-      <div className="outer"></div>
-      <div className="middle"></div>
-      <div className="inner"></div>
-    </div>
-  );
+  return <Loader />;
 }
 
 export default Loading;

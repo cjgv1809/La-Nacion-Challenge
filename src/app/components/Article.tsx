@@ -7,7 +7,7 @@ interface ArticleProps {
   article: Article;
 }
 
-function Article({
+function ArticleComponent({
   article: { promo_items, headlines, display_date },
 }: ArticleProps) {
   return (
@@ -45,4 +45,4 @@ function Article({
   );
 }
 
-export default Article;
+export default ArticleComponent;

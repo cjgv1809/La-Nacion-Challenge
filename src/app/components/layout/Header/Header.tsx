@@ -71,7 +71,7 @@ function Header() {
       } else {
         router.push(`/?search=${term}`);
       }
-    }, DEBOUNCE_DELAY); // Cambia el tiempo de debounce (300 ms) según prefieras
+    }, DEBOUNCE_DELAY);
   };
 
   return (

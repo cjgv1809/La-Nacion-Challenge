@@ -1,12 +1,12 @@
 import Link from "next/link";
 
-interface TagListProps {
+interface TagProps {
   slug: string;
   text: string;
   count: number;
 }
 
-function TagsList({ tag: { slug, count, text } }: { tag: TagListProps }) {
+function Tag({ tag: { slug, count, text } }: { tag: TagProps }) {
   return (
     <Link href={`/tema/${slug}`}>
       {text} ({count})
@@ -14,4 +14,4 @@ function TagsList({ tag: { slug, count, text } }: { tag: TagListProps }) {
   );
 }
 
-export default TagsList;
+export default Tag;
