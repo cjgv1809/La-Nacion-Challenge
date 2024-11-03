@@ -9,6 +9,10 @@ const nextConfig: NextConfig = {
         hostname:
           "arc-anglerfish-arc2-sandbox-sandbox-lanacionar.s3.amazonaws.com",
       },
+      {
+        protocol: "https",
+        hostname: "arc-static.glanacion.com",
+      },
     ],
   },
 };
