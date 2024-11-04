@@ -6067,8 +6067,7 @@ input[type="text"]:focus::placeholder {
   .header {
     display: block;
     border-bottom: 1px solid #cccccc;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px;
     background: #fff;
     position: fixed;
     width: 100%;
@@ -6089,6 +6088,7 @@ input[type="text"]:focus::placeholder {
   }
   .header__middle {
     text-align: center;
+    width: 100%;
   }
   .header__middle .logo-la-nacion {
     color: #006998;
@@ -7038,9 +7038,9 @@ article a.figure:before {
   background-color: #fff;
 }
 
-.error-container__card h1{
+.error-container__card h1 {
   font-size: 2rem;
-  font-weight: 700
+  font-weight: 700;
 }
 
 .not-found {
@@ -7135,4 +7135,27 @@ article a.figure:before {
   .not-found__subtitle {
     font-size: 1.25rem;
   }
+}
+
+.header__logo {
+  width: 200px;
+  height: 100%;
+}
+
+.header__container {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.header__right-btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 1rem;
+  white-space: nowrap;
 }

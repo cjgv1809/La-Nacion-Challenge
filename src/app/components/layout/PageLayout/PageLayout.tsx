@@ -1,5 +1,5 @@
 import ArticleComponent from "../../Article";
-import Button from "../../Button";
+import Button from "../../common/Button/Button";
 import Sidebar from "../Sidebar";
 import HeaderTitle from "../../HeaderTitle";
 import TagComponent from "../../Tag";
@@ -42,7 +42,9 @@ export default function PageLayout({
         </div>
 
         <div className="row">
-          <Button text="MÁS NOTAS DE ACUMULADO GRILLA" />
+          <div className="col-12 hlp-text-center hlp-margintop-40">
+            <Button text="MÁS NOTAS DE ACUMULADO GRILLA" />
+          </div>
         </div>
       </section>
 

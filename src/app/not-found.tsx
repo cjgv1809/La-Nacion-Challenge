@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import { useRouter } from "next/navigation";
+import Button from "./components/common/Button";
 
 export default function NotFound() {
   const router = useRouter();
@@ -18,20 +18,13 @@ export default function NotFound() {
         </p>
 
         <div className="not-found__buttons">
-          <button
-            type="button"
-            onClick={() => router.back()}
-            className="not-found__button not-found__button--secondary"
-          >
-            Volver atrás
-          </button>
+          <Button text="Volver atrás" onClick={() => router.back()} />
 
-          <Link
-            href="/"
-            className="not-found__button not-found__button--primary"
-          >
-            Ir a la página principal
-          </Link>
+          <Button
+            text="Ir a la página principal"
+            className="--btn --primary"
+            onClick={() => router.push("/")}
+          />
         </div>
       </div>
     </div>

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import Header from "./components/layout/Header/Header";
-import Footer from "./components/layout/Footer/Footer";
+import Header from "./components/layout/Header";
+import Footer from "./components/layout/Footer";
 import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import "./globals.css";
