@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag matches the snapshot 1`] = `
+<DocumentFragment>
+  <a
+    href="/tema/hello-world"
+  >
+    Hello, world (1)
+  </a>
+</DocumentFragment>
+`;

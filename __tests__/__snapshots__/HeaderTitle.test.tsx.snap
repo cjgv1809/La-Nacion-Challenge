@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HeaderTitle matches the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="com-titleWithfollow hlp-marginBottom-15"
+  >
+    <h1
+      class="com-title-section-xl hlp-marginBottom-40"
+    >
+      Hello, world
+    </h1>
+  </div>
+</DocumentFragment>
+`;

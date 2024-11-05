@@ -1,0 +1,697 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer matches the snapshot 1`] = `
+<DocumentFragment>
+  <footer
+    aria-label="Footer"
+    class="footer"
+    role="contentinfo"
+  >
+    <div
+      class="footer-header"
+    >
+      <div
+        class="footer-header__logo"
+      >
+        <img
+          alt="La Nacion Logo"
+          data-nimg="1"
+          decoding="async"
+          height="30"
+          src="/_next/image?url=https%3A%2F%2Farc-static.glanacion.com%2Fpf%2Fresources%2Fimages%2Fla-nacion.webp%3Fd%3D1704&w=640&q=75"
+          srcset="/_next/image?url=https%3A%2F%2Farc-static.glanacion.com%2Fpf%2Fresources%2Fimages%2Fla-nacion.webp%3Fd%3D1704&w=256&q=75 1x, /_next/image?url=https%3A%2F%2Farc-static.glanacion.com%2Fpf%2Fresources%2Fimages%2Fla-nacion.webp%3Fd%3D1704&w=640&q=75 2x"
+          style="color: transparent;"
+          width="250"
+        />
+      </div>
+    </div>
+    <div
+      class="footer-sitio"
+    >
+      <div
+        class="footer-sitio__links"
+      >
+        <div
+          class="footer-section "
+        >
+          <p
+            class="text ln-text sm-none --font-bold --font-xs"
+            data-testid="footer-section-title"
+          >
+            Secciones
+          </p>
+          <a
+            aria-label="Últimas noticias"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.lanacion.com.ar/ultimas-noticias/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Últimas noticias
+          </a>
+          <a
+            aria-label="Economía"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.lanacion.com.ar/economia/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Economía
+          </a>
+          <a
+            aria-label="Sociedad"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.lanacion.com.ar/sociedad/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Sociedad
+          </a>
+          <a
+            aria-label="Deportes"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.lanacion.com.ar/deportes/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Deportes
+          </a>
+          <a
+            aria-label="Espectáculos"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.lanacion.com.ar/espectaculos/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Espectáculos
+          </a>
+          <a
+            aria-label="LN+"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://lnmas.lanacion.com.ar/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            LN+
+          </a>
+        </div>
+        <div
+          class="footer-section "
+        >
+          <a
+            aria-label="Política"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.lanacion.com.ar/politica/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Política
+          </a>
+          <a
+            aria-label="El mundo"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.lanacion.com.ar/el-mundo/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            El mundo
+          </a>
+          <a
+            aria-label="Opinión"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.lanacion.com.ar/opinion/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Opinión
+          </a>
+          <a
+            aria-label="Lifestyle"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.lanacion.com.ar/lifestyle/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Lifestyle
+          </a>
+          <a
+            aria-label="Edición impresa"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://edicionimpresa.lanacion.com.ar/la-nacion"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Edición impresa
+          </a>
+          <a
+            aria-label="Club LA NACION"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://club.lanacion.com.ar/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Club LA NACION
+          </a>
+        </div>
+      </div>
+      <div
+        class="footer-sitio__links footer-sitio__links--start"
+      >
+        <div
+          class="footer-section "
+        >
+          <p
+            class="text ln-text sm-none --font-bold --font-xs"
+            data-testid="footer-section-title"
+          >
+            Revistas
+          </p>
+          <a
+            aria-label="OHLALÁ!"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.somosohlala.com/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            OHLALÁ!
+          </a>
+          <a
+            aria-label="¡HOLA!"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.lanacion.com.ar/revista-hola/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            ¡HOLA!
+          </a>
+          <a
+            aria-label="LIVING"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.lanacion.com.ar/revista-living/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            LIVING
+          </a>
+          <a
+            aria-label="JARDÍN"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.lanacion.com.ar/revista-jardin/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            JARDÍN
+          </a>
+          <a
+            aria-label="LUGARES"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.lanacion.com.ar/revista-lugares/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            LUGARES
+          </a>
+          <a
+            aria-label="ROLLING STONE"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://es.rollingstone.com/arg/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            ROLLING STONE
+          </a>
+        </div>
+        <div
+          class="footer-section "
+        >
+          <a
+            aria-label="Bonvivir"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://bonvivir.com/?_gl=1*hmp4mf*_gcl_aw*R0NMLjE3MzAyMjgwMTYuQ2owS0NRandqNEs1QmhEWUFSSXNBRDFMeTJxOHQxaWhQTjc5dTBYT2x3R3NoajRuZUdrMDdBNko3QWpBMWZiMVgwaUJkOWxkc2h6emluUWFBdks1RUFMd193Y0I.*_gcl_au*MTcyNjc3MDM2LjE3MzAyMjgwMTU."
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Bonvivir
+          </a>
+          <a
+            aria-label="Colecciones"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://colecciones.lanacion.com.ar/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Colecciones
+          </a>
+          <a
+            aria-label="Master en Periodismo"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.utdt.edu/ver_contenido.php?id_contenido=1111&id_item_menu=2327"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Master en Periodismo
+          </a>
+          <a
+            aria-label="Fundación LA NACION"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://fundacionlanacion.org.ar/?_gl=1*14zmtm4*_gcl_aw*R0NMLjE3MzAyMjgwMTYuQ2owS0NRandqNEs1QmhEWUFSSXNBRDFMeTJxOHQxaWhQTjc5dTBYT2x3R3NoajRuZUdrMDdBNko3QWpBMWZiMVgwaUJkOWxkc2h6emluUWFBdks1RUFMd193Y0I.*_gcl_au*MTcyNjc3MDM2LjE3MzAyMjgwMTU."
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Fundación LA NACION
+          </a>
+        </div>
+      </div>
+      <div
+        class="footer-sitio__links footer-sitio__links--column"
+      >
+        <div
+          class="footer-section "
+        >
+          <a
+            aria-label="Mapa del sitio"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.lanacion.com.ar/mapa-del-sitio/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Mapa del sitio
+          </a>
+          <a
+            aria-label="Ayuda"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.contacto.lanacion.com.ar/ayuda"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Ayuda
+          </a>
+          <a
+            aria-label="Atención al socio"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://club.lanacion.com.ar/ayuda/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Atención al socio
+          </a>
+          <a
+            aria-label="Términos y condiciones"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.contacto.lanacion.com.ar/tyc"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Términos y condiciones
+          </a>
+          <a
+            aria-label="¿Cómo anunciar?"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://www.lanacion.in/"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            ¿Cómo anunciar?
+          </a>
+          <a
+            aria-label="Suscribirse al diario impreso"
+            class="text ln-text text-light-600 --font-xs"
+            href="https://suscripciones.lanacion.com.ar/suscribirme"
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Suscribirse al diario impreso
+          </a>
+        </div>
+      </div>
+      <div
+        class="footer-sitio__links footer-sitio__links--column"
+      >
+        <div
+          class="footer-section "
+        >
+          <p
+            class="text ln-text sm-none --font-bold --font-xs"
+            data-testid="footer-section-title"
+          >
+            Redes sociales:
+          </p>
+          <div
+            class="footer-social-media-links"
+          >
+            <a
+              aria-label="Síguenos en Facebook"
+              class="footer-social-media-links__link"
+              href="https://www.facebook.com/lanacion"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Ir a Facebook"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-facebook fa-xl "
+                data-icon="facebook"
+                data-prefix="fab"
+                focusable="false"
+                role="img"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+            <a
+              aria-label="Síguenos en Twitter/X"
+              class="footer-social-media-links__link"
+              href="https://twitter.com/LANACION"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Ir a Twitter/X"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-x-twitter fa-xl "
+                data-icon="x-twitter"
+                data-prefix="fab"
+                focusable="false"
+                role="img"
+                viewBox="0 0 512 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+            <a
+              aria-label="Síguenos en Instagram"
+              class="footer-social-media-links__link"
+              href="https://www.instagram.com/lanacioncom/"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Ir a Instagram"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-instagram fa-xl "
+                data-icon="instagram"
+                data-prefix="fab"
+                focusable="false"
+                role="img"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+            <a
+              aria-label="Síguenos en RSS"
+              class="footer-social-media-links__link"
+              href="https://www.lanacion.com.ar/arc/outboundfeeds/rss/?outputType=xml"
+              rel="noopener noreferrer"
+              target="_blank"
+              title="Ir a RSS"
+            >
+              <svg
+                aria-hidden="true"
+                class="svg-inline--fa fa-rss fa-xl "
+                data-icon="rss"
+                data-prefix="fas"
+                focusable="false"
+                role="img"
+                viewBox="0 0 448 512"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0 64C0 46.3 14.3 32 32 32c229.8 0 416 186.2 416 416c0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96C14.3 96 0 81.7 0 64zM0 416a64 64 0 1 1 128 0A64 64 0 1 1 0 416zM32 160c159.1 0 288 128.9 288 288c0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224c-17.7 0-32-14.3-32-32s14.3-32 32-32z"
+                  fill="currentColor"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div
+          class="footer-section "
+        >
+          <strong
+            class="text ln-text sm-none --font-bold --font-xs"
+          >
+            Descargá la app:
+          </strong>
+          <a
+            href="https://play.google.com/store/apps/details?id=app.lanacion.activity&hl=es_419&pli=1"
+            rel="noopener noreferrer"
+            target="_blank"
+            title="Android App"
+          >
+            <img
+              alt="Android App"
+              data-nimg="1"
+              decoding="async"
+              height="34"
+              src="/_next/image?url=https%3A%2F%2Farc-static.glanacion.com%2Fpf%2Fresources%2Fimages%2Fandroid-store.webp%3Fd%3D1704&w=256&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Farc-static.glanacion.com%2Fpf%2Fresources%2Fimages%2Fandroid-store.webp%3Fd%3D1704&w=128&q=75 1x, /_next/image?url=https%3A%2F%2Farc-static.glanacion.com%2Fpf%2Fresources%2Fimages%2Fandroid-store.webp%3Fd%3D1704&w=256&q=75 2x"
+              style="color: transparent;"
+              width="100"
+            />
+          </a>
+          <a
+            href="https://apps.apple.com/ar/app/la-nacion/id410689702"
+            rel="noopener noreferrer"
+            target="_blank"
+            title="iOS App"
+          >
+            <img
+              alt="iOS App"
+              data-nimg="1"
+              decoding="async"
+              height="34"
+              src="/_next/image?url=https%3A%2F%2Farc-static.glanacion.com%2Fpf%2Fresources%2Fimages%2Fapp-store.webp%3Fd%3D1704&w=256&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Farc-static.glanacion.com%2Fpf%2Fresources%2Fimages%2Fapp-store.webp%3Fd%3D1704&w=128&q=75 1x, /_next/image?url=https%3A%2F%2Farc-static.glanacion.com%2Fpf%2Fresources%2Fimages%2Fapp-store.webp%3Fd%3D1704&w=256&q=75 2x"
+              style="color: transparent;"
+              width="100"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="footer-company-info"
+    >
+      <div
+        class="footer-company-info__section"
+      >
+        <div
+          class="flex flex-column gap-32 text-initial_m flex-row_l jc-between_l flex-grow-1_l"
+        >
+          <p
+            class="text ln-text flex flex-column gap-9 --font-xs"
+          >
+            <strong
+              data-testid="director"
+            >
+              Director:
+            </strong>
+             
+            <span
+              data-testid="director-name"
+            >
+              Fernán Saguier.
+            </span>
+          </p>
+          <p
+            class="text ln-text flex flex-column gap-9 --font-xs"
+          >
+            <span
+              data-testid="issn"
+            >
+              ISSN (lanacion.com.ar) 2469-0597
+            </span>
+          </p>
+        </div>
+        <div
+          class="flex flex-column gap-32 text-initial_m flex-row_l jc-between_l flex-grow-1_l"
+        >
+          <p
+            class="text ln-text flex flex-column gap-9 --font-xs"
+          >
+            <strong
+              data-testid="edition-date"
+            >
+              Fecha de Edición:
+            </strong>
+             
+            <span
+              data-testid="edition-date-value"
+            >
+              4/11/2024
+            </span>
+          </p>
+          <p
+            class="text ln-text flex flex-column gap-9 --font-xs"
+          >
+            <strong
+              data-testid="edition-number"
+            >
+              Número de Edición:
+            </strong>
+             
+            <span
+              data-testid="edition-number-value"
+            >
+              10560
+            </span>
+          </p>
+        </div>
+      </div>
+      <div
+        class="footer-company-info__section"
+      >
+        <div
+          class="flex flex-column gap-32 text-center text-initial_m flex-row_l jc-between_l flex-grow-1_l"
+        >
+          <p
+            class="text ln-text --font-xs"
+          >
+            <strong
+              data-testid="company-info-title"
+            >
+              Propietario:
+            </strong>
+             
+            <span
+              data-testid="company-info-owner"
+            >
+              S.A. LA NACION - Zepita 3251,
+            </span>
+            <br />
+            <span
+              data-testid="company-info-address"
+            >
+              Cda. de Bs. As. C1285ABG | Tel. 54 11 5500-1800
+            </span>
+          </p>
+        </div>
+        <div>
+          <p
+            class="text ln-text --font-xs"
+          >
+            <strong
+              data-testid="company-info-office-title"
+            >
+              Oficinas:
+            </strong>
+             
+            <span
+              data-testid="company-info-office-address"
+            >
+              Av. del Libertador 101, Vte. López,
+            </span>
+            <br />
+            <span
+              data-testid="company-info-office-phone"
+            >
+              Prov. de Bs. As. Arg. - B1638BEA | Tel. 54 11 6090-5000
+            </span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      class="footer-copyright"
+    >
+      <p
+        class="footer-copyright__reserved"
+        data-testid="footer-copyright-reserved"
+      >
+        Copyright 2024 SA LA NACION | Todos los derechos reservados Dirección Nacional del Derecho de Autor DNDA - EXPEDIENTE DNDA (renovación) RL-2023-95334553-APN-DNDA#MJ.
+      </p>
+      <p
+        class="footer-copyright__reserved"
+        data-testid="footer-copyright-reserved-2"
+      >
+        Queda prohibida la reproducción total o parcial del presente diario.
+      </p>
+    </div>
+    <div
+      class="footer-copyright__fiscal"
+    >
+      <div
+        class="footer-sitio__links--bottom"
+      >
+        <div
+          class="footer-sitio__captcha"
+        >
+          <strong
+            class="text ln-text --font-xs"
+          >
+            Protegido por reCAPTCHA:
+          </strong>
+          <a
+            class="text ln-text text-light-600 --font-xs"
+            href="#"
+          >
+            Condiciones
+          </a>
+          <span
+            class="footer-sitio__dot"
+          />
+          <a
+            class="text ln-text text-light-600 --font-xs"
+            href="#"
+          >
+            Privacidad
+          </a>
+        </div>
+        <div
+          class="footer-general-info"
+        >
+          <div>
+            <img
+              alt="GDA"
+              data-nimg="1"
+              decoding="async"
+              height="21"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Farc-static.glanacion.com%2Fpf%2Fresources%2Fimages%2Fgda.webp%3Fd%3D1704&w=96&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Farc-static.glanacion.com%2Fpf%2Fresources%2Fimages%2Fgda.webp%3Fd%3D1704&w=48&q=75 1x, /_next/image?url=https%3A%2F%2Farc-static.glanacion.com%2Fpf%2Fresources%2Fimages%2Fgda.webp%3Fd%3D1704&w=96&q=75 2x"
+              style="color: transparent;"
+              width="38"
+            />
+          </div>
+          <p
+            class="text ln-text --font-xs text-light-600"
+          >
+            Miembro de GDA. Grupo de Diarios América
+          </p>
+          <a
+            href="http://qr.afip.gob.ar/?qr=qy9yHoypE82-DU8Wk-MZ0Q,,"
+            rel="noopener noreferrer"
+            target="_F960AFIPInfo"
+            title="AFIP"
+          >
+            <img
+              alt="AFIP"
+              data-nimg="1"
+              decoding="async"
+              height="46"
+              loading="lazy"
+              src="/_next/image?url=https%3A%2F%2Farc-static.glanacion.com%2Fpf%2Fresources%2Fimages%2Fdata-fiscal.webp%3Fd%3D1704&w=64&q=75"
+              srcset="/_next/image?url=https%3A%2F%2Farc-static.glanacion.com%2Fpf%2Fresources%2Fimages%2Fdata-fiscal.webp%3Fd%3D1704&w=32&q=75 1x, /_next/image?url=https%3A%2F%2Farc-static.glanacion.com%2Fpf%2Fresources%2Fimages%2Fdata-fiscal.webp%3Fd%3D1704&w=64&q=75 2x"
+              style="color: transparent;"
+              width="32"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</DocumentFragment>
+`;
