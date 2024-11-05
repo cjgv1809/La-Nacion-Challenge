@@ -7159,3 +7159,18 @@ article a.figure:before {
   gap: 1rem;
   white-space: nowrap;
 }
+
+.header-mobile__container {
+  max-width: 1240px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+}
+
+.header-mobile__menu-button,
+.header-mobile__subscribe-link {
+  text-transform: uppercase;
+  font-size: 0.75em;
+}

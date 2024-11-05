@@ -133,36 +133,14 @@ function Header() {
 
       {/* Mobile Header */}
       <header className={getMobileHeaderClasses()}>
-        <div
-          style={{
-            maxWidth: "1240px",
-            margin: "0 auto",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "space-between",
-            padding: "0 15px",
-          }}
-        >
-          <button
-            style={{
-              textTransform: "uppercase",
-              fontSize: "0.75em",
-            }}
-          >
-            MENÚ
-          </button>
+        <div className="header-mobile__container">
+          <button className="header-mobile__menu-button">MENÚ</button>
 
           <div className="header-mobile__logo">
             <span className="logo-la-nacion">LA NACION</span>
           </div>
 
-          <Link
-            href="#"
-            style={{
-              textTransform: "uppercase",
-              fontSize: "0.75em",
-            }}
-          >
+          <Link href="#" className="header-mobile__subscribe-link">
             Suscribite
           </Link>
         </div>

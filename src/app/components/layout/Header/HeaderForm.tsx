@@ -16,7 +16,7 @@ function HeaderForm({
       <input
         type="search"
         className="com-search__input"
-        placeholder="Buscar..."
+        placeholder="Buscar"
         value={searchTerm}
         onChange={handleSearch}
         onClick={() => setIsSearchActive(true)}
