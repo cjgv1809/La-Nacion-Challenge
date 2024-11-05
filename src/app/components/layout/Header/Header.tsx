@@ -17,11 +17,12 @@ function Header() {
   const pathname = usePathname();
   let debounceTimeout: NodeJS.Timeout;
   const DEBOUNCE_DELAY = 100;
+  const SCROLL_THRESHOLD = 20;
 
   useEffect(() => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
-      if (Math.abs(currentScrollY - lastScrollY) < 20) return;
+      if (Math.abs(currentScrollY - lastScrollY) < SCROLL_THRESHOLD) return;
       setIsScrollDown(currentScrollY > lastScrollY);
       setLastScrollY(currentScrollY);
     };
