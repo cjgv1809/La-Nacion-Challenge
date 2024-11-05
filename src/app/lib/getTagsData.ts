@@ -21,7 +21,7 @@ async function getTagsData(): Promise<Tag[]> {
       [key: string]: { slug: string; text: string; count: number };
     } = {};
     articles.forEach((article: Article) => {
-      article.taxonomy.tags.forEach((tag) => {
+      article.taxonomy?.tags.forEach((tag) => {
         if (tagCount[tag.slug]) {
           tagCount[tag.slug].count += 1;
         } else {

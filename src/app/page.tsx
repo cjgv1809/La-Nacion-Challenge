@@ -12,6 +12,13 @@ export default async function Home({
 }) {
   const { search: searchTerm = "" } = await searchParams;
 
+  // Simulate an error in data fetching to show error page
+  const shouldError = false;
+
+  if (shouldError) {
+    throw new Error("Simulated error in data fetching");
+  }
+
   const [tagsResult, articlesResult] = await Promise.allSettled([
     getTagsData(),
     getArticlesData({ filterFlag: true, searchTerm }),
