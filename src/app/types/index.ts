@@ -3,9 +3,9 @@ export interface Article {
   display_date: Date;
   headlines: Headlines;
   promo_items?: PromoItems;
-  subtype: string;
-  taxonomy: Taxonomy;
-  website_url: string;
+  subtype?: string;
+  taxonomy?: Taxonomy;
+  website_url?: string;
 }
 
 export interface Headlines {
@@ -19,7 +19,7 @@ export interface PromoItems {
 export interface Basic {
   resized_urls?: ResizedURL[];
   subtitle?: string;
-  type: Type;
+  type?: Type;
   url?: string;
 }
 
