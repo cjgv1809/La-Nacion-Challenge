@@ -24,12 +24,12 @@ git clone https://github.com/cjgv1809/La-Nacion-Challenge.git
 cd la-nacion-challenge
 ```
 
-## Install the dependencies:
+## Install the dependencies
 ```bash
 pnpm install
 ```
 
-## Run the project:
+## Run the project
 ```bash
 pnpm dev
 ```
