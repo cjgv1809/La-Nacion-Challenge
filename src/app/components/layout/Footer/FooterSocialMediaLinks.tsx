@@ -46,7 +46,7 @@ function FooterSocialMediaLinks() {
           title="Ir a RSS"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="RSS"
+          aria-label="Síguenos en RSS"
           className="footer-social-media-links__link"
         >
           <FontAwesomeIcon icon={faRss} size="xl" />

@@ -15,7 +15,7 @@ import FooterSocialMediaLinks from "./FooterSocialMediaLinks";
 
 function Footer() {
   return (
-    <footer className="footer">
+    <footer className="footer" role="contentinfo" aria-label="Footer">
       <FooterLogo />
 
       <div className="footer-sitio">
