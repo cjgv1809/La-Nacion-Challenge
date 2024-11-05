@@ -33,4 +33,9 @@ describe("Button", () => {
 
     expect(button).not.toHaveTextContent("");
   });
+
+  it("matches the snapshot", () => {
+    const { asFragment } = render(<Button text="Click me" />);
+    expect(asFragment()).toMatchSnapshot();
+  });
 });

@@ -17,4 +17,9 @@ describe("HeaderTitle", () => {
 
     expect(heading).toHaveTextContent("Hello, world");
   });
+
+  it("matches the snapshot", () => {
+    const { asFragment } = render(<HeaderTitle title="Hello, world" />);
+    expect(asFragment()).toMatchSnapshot();
+  });
 });

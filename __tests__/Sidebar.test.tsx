@@ -25,4 +25,9 @@ describe("Sidebar", () => {
 
     expect(heading).not.toHaveTextContent("Recetas más populares");
   });
+
+  it("matches the snapshot", () => {
+    const { asFragment } = render(<Sidebar />);
+    expect(asFragment()).toMatchSnapshot();
+  });
 });

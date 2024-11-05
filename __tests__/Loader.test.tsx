@@ -17,4 +17,9 @@ describe("Loader", () => {
 
     expect(loader).toHaveClass("loader");
   });
+
+  it("matches the snapshot", () => {
+    const { asFragment } = render(<Loader />);
+    expect(asFragment()).toMatchSnapshot();
+  });
 });
