@@ -36,6 +36,15 @@ pnpm dev
 
 Open http://localhost:3000 with your browser to see the result.
 
+## Environment variable
+In the root directory, create an .env file with the following variable and value:
+
+```bash
+NEXT_PUBLIC_API_URL=https://jrt2bb3b2nlkw5ozvfcld62wbe0pnifh.lambda-url.us-east-1.on.aws/
+```
+
+This URL will be used to fetch all articles and tags.
+
 ## Running Tests
 To run the tests, use the following command:
 
