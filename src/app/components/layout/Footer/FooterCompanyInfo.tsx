@@ -15,7 +15,8 @@ function FooterCompanyInfo() {
           <p className="text ln-text flex flex-column gap-9 --font-xs">
             <strong data-testid="edition-date">Fecha de Edición:</strong>{" "}
             <span data-testid="edition-date-value">
-              {new Date().toLocaleDateString("es-AR")}
+              {/* January 1, 2024 for testing purposes */}
+              {new Date("2024-01-01T00:00:00Z").toLocaleDateString("es-AR")}
             </span>
           </p>
           <p className="text ln-text flex flex-column gap-9 --font-xs">

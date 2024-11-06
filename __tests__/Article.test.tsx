@@ -2,8 +2,9 @@ import { render, screen } from "@testing-library/react";
 import ArticleComponent from "@/app/components/Article";
 import { formatDate } from "@/app/lib";
 
-const today = new Date();
-const formattedDate = formatDate(today);
+// render a fixed date for testing
+const newDate = new Date("2024-01-01T00:00:00Z"); // January 1, 2024
+const formattedDate = formatDate(newDate);
 
 const article = {
   _id: Math.random().toString(36).substring(7),
@@ -15,7 +16,7 @@ const article = {
   headlines: {
     basic: "Article headline",
   },
-  display_date: today,
+  display_date: newDate,
 };
 
 describe("Article", () => {

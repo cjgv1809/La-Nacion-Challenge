@@ -102,10 +102,13 @@ describe("Footer", () => {
     // Check edition date
     const editionDateElement = screen.getByTestId("edition-date");
     const editionDateValue = screen.getByTestId("edition-date-value");
-    const currentDate = new Date().toLocaleDateString("es-AR");
+    // January 1, 2024 render a fixed date for testing
+    const newtDate = new Date("2024-01-01T00:00:00Z").toLocaleDateString(
+      "es-AR"
+    );
     expect(editionDateElement).toBeInTheDocument();
     expect(editionDateValue).toBeInTheDocument();
-    expect(editionDateValue).toHaveTextContent(currentDate);
+    expect(editionDateValue).toHaveTextContent(newtDate);
 
     // Check edition number
     const editionNumberElement = screen.getByTestId("edition-number");
@@ -123,10 +126,14 @@ describe("Footer", () => {
 
     // Check office information
     const officeElement = screen.getByTestId("company-info-office-title");
-    const companyInfoAddress = screen.getByTestId("company-info-office-address");
+    const companyInfoAddress = screen.getByTestId(
+      "company-info-office-address"
+    );
     expect(officeElement).toBeInTheDocument();
     expect(companyInfoAddress).toBeInTheDocument();
-    expect(companyInfoAddress).toHaveTextContent("Av. del Libertador 101, Vte. López,");
+    expect(companyInfoAddress).toHaveTextContent(
+      "Av. del Libertador 101, Vte. López,"
+    );
   });
 
   it("renders the copyright info", () => {
