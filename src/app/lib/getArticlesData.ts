@@ -9,6 +9,10 @@ async function getArticlesData({
   filterFlag = false,
   searchTerm = "",
 }: getArticlesDataProps = {}): Promise<Article[]> {
+  if (!process.env.NEXT_PUBLIC_API_URL) {
+    throw new Error("API URL not found");
+  }
+
   try {
     const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}`, {
       cache: "no-store",
