@@ -5,7 +5,7 @@ const filteredArticlesByTag = (
   tagSlug: string
 ): Article[] =>
   articles.filter((article) =>
-    article.taxonomy.tags.some((tag) => tag.slug === tagSlug)
+    article.taxonomy?.tags.some((tag) => tag.slug === tagSlug)
   );
 
 export default filteredArticlesByTag;
