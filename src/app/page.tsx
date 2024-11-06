@@ -10,7 +10,7 @@ export default async function Home({
 }: {
   searchParams: SearchParams;
 }) {
-  const { search: searchTerm = "" } = await searchParams;
+  const { search: searchTerm = "" } = searchParams;
 
   // Check if the environment variable is set
   if (!process.env.NEXT_PUBLIC_API_URL) {

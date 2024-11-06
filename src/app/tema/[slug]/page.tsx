@@ -6,7 +6,7 @@ interface TagPageProps {
 }
 
 export default async function TagPage({ params }: TagPageProps) {
-  const { slug } = await params;
+  const { slug } = params;
 
   // Check if the environment variable is set
   if (!process.env.NEXT_PUBLIC_API_URL) {
