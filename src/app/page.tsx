@@ -1,15 +1,15 @@
-import { getArticlesData, getTagsData } from "./lib";
-import PageLayout from "./components/layout";
+import PageLayout from "@/app/components/layout";
+import { getArticlesData, getTagsData } from "@/app/lib";
 
 interface SearchParams {
   search?: string;
 }
 
-export default async function Home({
-  searchParams,
-}: {
+interface HomeProps {
   searchParams: SearchParams;
-}) {
+}
+
+export default async function Home({ searchParams }: HomeProps) {
   const { search: searchTerm = "" } = searchParams;
 
   // Check if the environment variable is set
