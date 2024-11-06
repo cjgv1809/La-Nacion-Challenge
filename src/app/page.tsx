@@ -6,11 +6,11 @@ interface SearchParams {
 }
 
 interface HomeProps {
-  searchParams: SearchParams;
+  searchParams: Promise<SearchParams>;
 }
 
 export default async function Home({ searchParams }: HomeProps) {
-  const { search: searchTerm = "" } = searchParams;
+  const { search: searchTerm = "" } = await searchParams;
 
   // Check if the environment variable is set
   if (!process.env.NEXT_PUBLIC_API_URL) {
