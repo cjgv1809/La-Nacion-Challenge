@@ -2,11 +2,11 @@ import PageLayout from "@/app/components/layout";
 import { filteredArticlesByTag, getArticlesData, getTagsData } from "@/app/lib";
 
 interface TagPageProps {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }
 
 export default async function TagPage({ params }: TagPageProps) {
-  const { slug } = params;
+  const { slug } = await params;
 
   // Check if the environment variable is set
   if (!process.env.NEXT_PUBLIC_API_URL) {
