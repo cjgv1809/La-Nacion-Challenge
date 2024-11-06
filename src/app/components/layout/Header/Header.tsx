@@ -9,7 +9,6 @@ import HeaderForm from "./HeaderForm";
 
 function Header() {
   const [isSearchActive, setIsSearchActive] = useState(false);
-  const [isMenuActive, setIsMenuActive] = useState(false);
   const [isScrollDown, setIsScrollDown] = useState(false);
   const [lastScrollY, setLastScrollY] = useState(0);
   const [searchTerm, setSearchTerm] = useState("");
@@ -63,7 +62,6 @@ function Header() {
   const getHeaderClasses = () => {
     let classes = "header";
     if (isSearchActive) classes += " --active-search";
-    if (isMenuActive) classes += " --active-menu";
     if (isScrollDown) classes += " --scrollDown";
     else classes += " --scrollUp";
     return classes;
@@ -100,10 +98,7 @@ function Header() {
       <header className={getHeaderClasses()}>
         <div className="header__container">
           <div className="header__left">
-            <div
-              className="com-hamburger"
-              onClick={() => setIsMenuActive(!isMenuActive)}
-            >
+            <div className="com-hamburger">
               <span className="com-hamburger__bar"></span>
               <span className="com-hamburger__bar"></span>
               <span className="com-hamburger__bar"></span>
